@@ -1,0 +1,16 @@
+{
+  "parser": "babel-eslint",
+  "rules": {
+    "no-empty": 2,
+    "no-eval": 2,
+    "no-with": 2,
+    "no-console":0,
+    "no-extra-semi":2,
+    "semi":2,
+    "comma-dangle": ["error", {
+      "arrays": "never",
+      "objects": "never"
+    }],
+    "no-var": 1
+  }
+}

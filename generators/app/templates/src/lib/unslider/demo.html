@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://cdn.bootcss.com/unslider/2.0.3/css/unslider-dots.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/unslider/2.0.3/css/unslider.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/unslider/2.0.3/js/unslider-min.js"></script>
+    <style>
+        .banner {
+            width: 300px;
+            margin: 200px auto;
+        }
+    </style>
+</head>
+<body>
+
+<div class="banner">
+    <ul>
+        <li>111111111111111111</li>
+        <li>222222222222222222</li>
+        <li>333333333333333333</li>
+    </ul>
+</div>
+<script>
+    var _unslider;
+    $(function () {
+        _unslider = $('.banner').unslider({
+            autoplay: true,//自动播放
+             infinite: true,//无限循环播放
+            arrows: false,//上一个、下一个是否显示
+            nav: false//导航条是否显示
+        });
+
+        //        _unslider.unslider("next")  下一个
+        //        _unslider.unslider("prev")  上一个
+        //        _unslider.unslider('animate:1')  切换，索引从0开始
+    });
+</script>
+</body>
+</html>
