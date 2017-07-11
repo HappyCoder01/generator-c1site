@@ -12,6 +12,10 @@
     "yeoman-generator": "^1.1.1",
     "yosay": "^2.0.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HappyCoder01/generator-c1site.git"
+  },
   "files": [
     "generators"
   ],
